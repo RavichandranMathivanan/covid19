@@ -1,2 +1,2 @@
-# covid19
+# project_covid19
 Analysis and Reporting of Corona Virus Cases
