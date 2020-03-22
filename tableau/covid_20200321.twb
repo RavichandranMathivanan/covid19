@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0219.0753                               -->
+<workbook original-version='18.1' source-build='2020.1.0 (20201.20.0219.0753)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='coronavirus_cases (dataset_raw.coronavirus_cases) (dataset_stage)' inline='true' name='federated.0gy783x1jklpm113roh7e00bb9d0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='192.168.157.130' name='hadoophive.05le79w0vlik5t1cdiki41vsy7qc'>
+            <connection authentication='no' authentication-type='0' class='hadoophive' connection-type='Impala' dbname='' odbc-connect-string-extras='' one-time-sql='' port='21050' schema='dataset_stage' server='192.168.157.130' sslcert='' sslmode='' transport-type='0' username=''>
+              <connection-customization class='hadoophive' enabled='false' version='18.1'>
+                <vendor name='hadoophive' />
+                <driver name='hadoophive' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='yes' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='yes' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='yes' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='yes' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='yes' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='yes' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='yes' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='yes' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='yes' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='yes' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='yes' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='hadoophive.05le79w0vlik5t1cdiki41vsy7qc' name='coronavirus_cases' table='[dataset_raw].[coronavirus_cases]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_cases]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>total_cases</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_cases</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_cases]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>new_cases</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_deaths</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_deaths]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>total_deaths</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>new_deaths</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[new_deaths]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>new_deaths</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_recovered</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_recovered]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>total_recovered</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>active_cases</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[active_cases]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>active_cases</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>critical_cases</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[critical_cases]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>critical_cases</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cases_per_one_million</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_cases_per_one_million]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>total_cases_per_one_million</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>report_date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[report_date]</local-name>
+            <parent-name>[coronavirus_cases]</parent-name>
+            <remote-alias>report_date</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Active Cases' datatype='integer' datatype-customized='true' name='[active_cases]' role='dimension' type='ordinal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Critical Cases' datatype='integer' datatype-customized='true' name='[critical_cases]' role='dimension' type='ordinal' />
+      <column caption='New Cases' datatype='integer' datatype-customized='true' name='[new_cases]' role='dimension' type='ordinal' />
+      <column caption='New Deaths' datatype='integer' datatype-customized='true' name='[new_deaths]' role='dimension' type='ordinal' />
+      <column caption='Report Date' datatype='string' name='[report_date]' role='dimension' type='nominal' />
+      <column caption='Total Cases' datatype='integer' datatype-customized='true' name='[total_cases]' role='dimension' type='ordinal' />
+      <column caption='Total Cases Per One Million' datatype='integer' datatype-customized='true' name='[total_cases_per_one_million]' role='dimension' type='ordinal' />
+      <column caption='Total Deaths' datatype='integer' datatype-customized='true' name='[total_deaths]' role='dimension' type='ordinal' />
+      <column caption='Total Recovered' datatype='integer' datatype-customized='true' name='[total_recovered]' role='dimension' type='ordinal' />
+      <column-instance column='[new_cases]' derivation='None' name='[none:new_cases:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.530387' measure-ordering='alphabetic' measure-percentage='0.469613' rowDisplayCount='185' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:new_cases:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>147</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>95</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>267</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>9</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='COVID19-20200321'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>COVID19_20200320</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#666666' fontname='Tableau Book' fontsize='9'>Analyzed and Published : </run>
+            <run auto-url='true' fontcolor='#666666' fontname='Tableau Book' fontsize='9' hyperlink='tabdoc:load-url url=&amp;quot;http://www.datapedia.ca/&amp;quot;'>http://www.datapedia.ca/</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#666666' fontname='Tableau Book' fontsize='9'>DataSource: </run>
+            <run auto-url='true' fontcolor='#0000ff' fontname='Benton Sans Book' fontsize='9' hyperlink='tabdoc:load-url url=&amp;quot;https://www.worldometers.info/coronavirus/&amp;quot;' underline='true'>https://www.worldometers.info/coronavirus/</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>Analyzed and Published : </run>
+            <run auto-url='true' hyperlink='tabdoc:load-url url=&amp;quot;http://www.datapedia.ca/&amp;quot;'>http://www.datapedia.ca/</run>
+            <run>&#10;DataSource: </run>
+            <run auto-url='true' fontcolor='#0000ff' fontname='Benton Sans Book' hyperlink='tabdoc:load-url url=&amp;quot;https://www.worldometers.info/coronavirus/&amp;quot;' underline='true'>https://www.worldometers.info/coronavirus/</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='coronavirus_cases (dataset_raw.coronavirus_cases) (dataset_stage)' name='federated.0gy783x1jklpm113roh7e00bb9d0' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0gy783x1jklpm113roh7e00bb9d0'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='New Cases' datatype='integer' datatype-customized='true' name='[new_cases]' role='dimension' type='ordinal' />
+            <column caption='New Deaths' datatype='integer' datatype-customized='true' name='[new_deaths]' role='dimension' type='ordinal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[new_cases]' derivation='None' name='[none:new_cases:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[new_deaths]' derivation='None' name='[none:new_deaths:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[total_cases]' derivation='None' name='[none:total_cases:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[total_deaths]' derivation='None' name='[none:total_deaths:ok]' pivot='key' type='ordinal' />
+            <column caption='Total Cases' datatype='integer' datatype-customized='true' name='[total_cases]' role='dimension' type='ordinal' />
+            <column caption='Total Deaths' datatype='integer' datatype-customized='true' name='[total_deaths]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</column>
+            <column>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]' field-type='quantitative' max='27851070.683269985' min='-26831099.704833061' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]' field-type='quantitative' max='24479139.156181496' min='-12392266.920533415' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='stroke-color' id='annotation_0' value='#000000' />
+            <format attr='stroke-size' id='annotation_0' value='1' />
+            <format attr='stroke-color' id='annotation_2' value='#000000' />
+            <format attr='line-end' id='annotation_2' value='arrow' />
+            <format attr='line-end' id='annotation_0' value='arrow' />
+            <format attr='stroke-color' id='annotation_1' value='#000000' />
+            <format attr='line-end' id='annotation_1' value='arrow' />
+            <format attr='stroke-color' id='annotation_3' value='#000000' />
+            <format attr='line-end' id='annotation_3' value='arrow' />
+            <format attr='stroke-color' id='annotation_9' value='#000000' />
+            <format attr='line-end' id='annotation_9' value='arrow' />
+            <format attr='stroke-color' id='annotation_10' value='#000000' />
+            <format attr='line-end' id='annotation_10' value='arrow' />
+            <format attr='stroke-color' id='annotation_11' value='#000000' />
+            <format attr='line-end' id='annotation_11' value='arrow' />
+            <format attr='stroke-color' id='annotation_12' value='#000000' />
+            <format attr='line-end' id='annotation_12' value='arrow' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]' />
+              <lod column='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]' />
+              <lod column='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]' />
+              <color column='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]' />
+              <color column='[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</rows>
+        <cols>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;USA&quot;</value>
+                    <value>267</value>
+                    <value>8</value>
+                    <value>40.0792</value>
+                    <value>-98.816400000000002</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;India&quot;</value>
+                    <value>9</value>
+                    <value>0</value>
+                    <value>22.741</value>
+                    <value>78.236000000000004</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Colombia&quot;</value>
+                    <value>13</value>
+                    <value>0</value>
+                    <value>3.794</value>
+                    <value>-73.605999999999995</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+              <run>Æ&#10;&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;USA&quot;</value>
+                    <value>267</value>
+                    <value>8</value>
+                    <value>19650</value>
+                    <value>264</value>
+                    <value>40.0792</value>
+                    <value>-98.816400000000002</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='58' y='-126' />
+          </annotation>
+          <annotation class='point' id='9' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Colombia&quot;</value>
+                    <value>13</value>
+                    <value>0</value>
+                    <value>158</value>
+                    <value>0</value>
+                    <value>3.794</value>
+                    <value>-73.605999999999995</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='155' y='138' />
+          </annotation>
+          <annotation class='point' id='10' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+              <run>Æ&#10;&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;India&quot;</value>
+                    <value>9</value>
+                    <value>0</value>
+                    <value>258</value>
+                    <value>5</value>
+                    <value>22.741</value>
+                    <value>78.236000000000004</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-19' y='-200' />
+          </annotation>
+          <annotation class='point' id='11' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;South Korea&quot;</value>
+                    <value>147</value>
+                    <value>8</value>
+                    <value>8799</value>
+                    <value>102</value>
+                    <value>36.338000000000001</value>
+                    <value>128.16</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='118' y='-10' />
+          </annotation>
+          <annotation class='point' id='12' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Country: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Total Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Cases: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>New Deaths: </run>
+              <run bold='true'>&lt;[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]&gt;</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:country:nk]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_cases:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:total_deaths:ok]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Latitude (generated)]</field>
+                      <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[Longitude (generated)]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Australia&quot;</value>
+                    <value>95</value>
+                    <value>0</value>
+                    <value>1023</value>
+                    <value>7</value>
+                    <value>-24.577999999999999</value>
+                    <value>133.58199999999999</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-49' y='91' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{1057880C-B7B0-41C8-9B2E-0E9B6D390FB2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='COVID19-20200321'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='130'>
+            <card type='caption' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_cases:ok]</field>
+            <field>[federated.0gy783x1jklpm113roh7e00bb9d0].[none:new_deaths:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A4A9EE35-0909-439B-9459-D32D5F55333B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='COVID19-20200321' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
